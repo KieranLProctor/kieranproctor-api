@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\v1\ProjectController;
+use App\Http\Controllers\v1\BlogPostController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +19,12 @@ Route::get('/', function () {
     return ['Laravel' => app()->version()];
 });
 
-require __DIR__.'/auth.php';
+Route::prefix('v1')->group(function () {
+    Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
+    Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
+
+    Route::get('/blog-posts', [BlogPostController::class, 'index'])->name('blog-posts.index');
+    Route::get('/blog-posts/{blogPost}', [BlogPostController::class, 'show'])->name('blog-posts.show');
+});
+
+require __DIR__ . '/auth.php';
