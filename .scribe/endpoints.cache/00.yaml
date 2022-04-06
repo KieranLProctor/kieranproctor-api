@@ -27,7 +27,7 @@ endpoints:
           content-type: application/json
           access-control-allow-origin: 'https://kieranproctor.com'
           access-control-allow-credentials: 'true'
-          set-cookie: 'XSRF-TOKEN=eyJpdiI6IkFBZ1lxQ0xBayt5dnU0ZFQxMUVteWc9PSIsInZhbHVlIjoiNWNjMnkyL0kyRW1wT0lFNFBsMDFFRThGTTAxWW84VEtoZ3NkVzEyZ0Z4Z2J1Wld4V0o1OGRQU2tFV29EdW5VR0lHcnVjQXdnUnpoUlllNmtoSzZYb1k1NjY5K3VmYW12c001cGJ4akRjT2Jia05FVzI2a2Vhamh4U3pYT2U2RkgiLCJtYWMiOiIxODllZGY2Y2M5NjMzMDBkYTNkMTdlZDEwNmNjNGQ5YmM5OWI5MTU0ZTcxMjU3Y2Y0OGI4Y2Y0NTE0NzU0Y2QxIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6ImF1ZmN1bklpUjNDVmxieEFkYVVJWnc9PSIsInZhbHVlIjoieERVc0M4RFFVRTU2YzRtZmttTjdORHp0T1JXL1FaVjFwcWh2SmFQZnlvWkxxME5wZGQ1RUF6YTdhNU5kdEJ1TGlNMG9ubEJ2dkhGcmdqTFRoVWpUc1lZakNKdVJZdHZPZkRJTytDdGdWMEc5cDI5ejU1WGN1WUFCVzRQdDVOWUkiLCJtYWMiOiI4ZTc2ZDIwNDAxZTJkMjY1N2Y5ZmJiYmFiYzhiMmRiMjAxOGYwYWU5OThmM2ZkMjE5NDhjMzhjZDNlY2U5NjUwIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6IkxnTUlMcjFON2pIVXBLOGRkZkE1WkE9PSIsInZhbHVlIjoiUldjcC95N2hQVUNiQ1NEVHROZnNzSmNLbXdjcWJ2ZGN5SGJMSnk1Z0NpVEVPNXljc3dYV1RtZEkvcW9ydnp2QTNnYXBWTXh1VERWdHhmTHcva1VKTE5yTHhwNS95blJvYlNQcC94ZHNJc1lhMGxvektNcVlrWDMxZmZBNUhzcDIiLCJtYWMiOiI1MzAyZjM5MjRiOGY3MGVhZmFkN2M1YmU0ODllNDEwZGQxZmNlMjBhNmVhMzMwYmRkMDg4M2ZjMzRlYWQyMzM0IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6IldCK2FsaVc0NTRCSWxBRUdNU3ErY0E9PSIsInZhbHVlIjoiUkQ1bXN4MVJZVmVFYUdLM081b3F3NlY2eXFFTkRYOHlBa0NEWWR1bU9Uc1lJYUNpdXZQbk9vMEN1WTJIV0NENm9rTHlSYzAwOXhBRjJoWFl5VzNCVGRYWDRrUWk3SVNqV1VWZ2JhZmlUOVFDRmVoM0Q3WWRWczl6eG9KSHZsUkYiLCJtYWMiOiJiZTEyMmQ4YjZlYjI2MjY0OTYxM2M1ODAzNjllMWZmMjBlYWM0ODA0NTU1MDdlYjc2NmRkYmZhNWU4NGNjYzNlIiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
         description: null
     responseFields: []
   -
@@ -524,7 +524,7 @@ endpoints:
           content-type: application/json
           access-control-allow-origin: 'https://kieranproctor.com'
           access-control-allow-credentials: 'true'
-          set-cookie: 'XSRF-TOKEN=eyJpdiI6IlZqMFdOU0FiSHlsWW90WXVDOG5Ba3c9PSIsInZhbHVlIjoiY0xFZmEzWGNMcjlia29PYThnYm0rK2x2NVZHaWlvaTFyUm1rWGNieGUwZ1k5SzZDcjUwK0pSNjFZQld5dmtKVWZGUTNWRkhUZWpHOVRQUm00Q1A1UmFCaGIrM2ZLc3p1dEhZZUxKTXkwV1NkMjVXY1VBVUdxZTRhSXpqUDZBaDYiLCJtYWMiOiJmOWQxMzJmOWRiZjIzOWYxYTFlNDQxYTQ1ZGUzNmQ4NzY1ZTE3MDY5MWE5ODVmM2I4Mjg4NjU4ZDAyZjRkMzcxIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6IlQxb0E3ai9aZnVtcDFJMzZrQW9nK3c9PSIsInZhbHVlIjoiK0JOWEhwM2diNHNybldMTDRRc3E5SFdmMEJrb1hUS0lBRE9VaFF4cEtydTdwWU93MDUvRFJlV3BFcm5sSm9VaE1jdENycWlRTXdQcnMyMk42Um92ckV2L0JrZ0gxQjhPbXVFNkU4OXRKc05ZN083WWNBdXJrZk9yTnQvWTBIVUsiLCJtYWMiOiIzODA1NDAyNTA2NTc4ZTY4ZTBhMGIzMDdhNzEyMWRkMGNlNTdiNDA4Yjk5ZWU5ZmQ5ZWVmMDVlMmYzODU2YjViIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6ImJmM2U2cXlrcXh3aFJVNEFVd1JYQWc9PSIsInZhbHVlIjoiK0VrT0x1Q1lHUnAwcnlsVnRwclR2ZHgvbHM0STZBcVJJeWJwMm1jRmRZSDNjbFd3aHJSWTZkYjlNVzl6d2JDK1hFVWJiaVhNckwxaGFTUEZEMko3SFE0VUFwaWJManhwOFVzZTdYOUUrRkcwU3RPTVEzd0tNUjlDUXpSQjU3VFMiLCJtYWMiOiI0NmU0MWM2N2JiMWU0N2Q4NWI5ZjQ1OGQ5NjNmMDE0NDExMjNkOTNmOTE4MjkyMTc1MjAyZGE2MTE5MWE3ZDk4IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6IkswN25BNmkrWlFEeHA3MjFxU0hxR0E9PSIsInZhbHVlIjoiVUErazd3MHYwL1NXNkFtRmRoTzhHbXJNb0dkeG5kclNDK2ZMb2hadEswT1RmU25kUmpON0FScTlubUFXTG5zd2t3Y0NyWW54V1FlZmVaS3cvWk1ra2lvR05ZdkVBR2NQUVhENEdIQzJpUXlxRXRwdCtROTI1bG4yV3FkczhIb3MiLCJtYWMiOiJhMjVlYThkZmMyYzY5NzI2NWU1YzU5YmEyM2Y1ZGIzMmEwZmE5MmMyYmM3NTAxMjU4OGU2MjRmYWI2N2YyOGM1IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
         description: null
     responseFields: []
   -
@@ -551,7 +551,7 @@ endpoints:
           content-type: application/json
           access-control-allow-origin: 'https://kieranproctor.com'
           access-control-allow-credentials: 'true'
-          set-cookie: 'XSRF-TOKEN=eyJpdiI6IlhEbjJncHhiODEzbVk3THZPT0lOZlE9PSIsInZhbHVlIjoiSThQTGErVHlOZk5vZEJ3ODRJbGNldjRKQnFrUXk2M3NPQ0tiejNRMk1uYWFCNmFuMnJHaVBwVzJFWkcvM0Z3QXcvREZxa1BZU3owdGI5M1JLTWc4UmlKcUh2KzNKOGl1T1hxak8wVmZnY3lZNGtvemJMTlp0ZmE1c3hrcDFJc3AiLCJtYWMiOiIyMjlkNzJiMjg3MTdiODViYTQ0MzM4OGU2YzY4NTA4N2JjMTU4MGY0MzIwMDAwOThkY2IzMjMwMDUxY2I3ZDEwIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6IlBnR3h3QXg5dElrdGFQOHpSQ1J1S3c9PSIsInZhbHVlIjoiNWVOOXErbWkwVEFzWEpoVklseGVqVDNpMWRadFdaQkRSVGNVTTNKaVhpZEFUajhVempHZFNCZW9VZmdPTFN0NzU4UHZteU1jOC96WnRXV3IzZzVxbFNYeEZNdFBkNXk4RDdtSEdaVGFMcjVwY3lTenR5MEhNLzRWT2NMMzB5Y1oiLCJtYWMiOiI2OGQ0NzNjYTQyY2NlMWI2NTRkNTFjNjkxODMzYzhiMTNmZGQ0YzdlNzExNTMxNzhhYjc1NjUyYzFkZDZkZDRjIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6IlVTRDBLdjUvdHJYUHY2alZ5OUFQVUE9PSIsInZhbHVlIjoiTXVqb2txT2FUNWFIZ0JENmRudXVkVU1TMWFaemlDc0g1VE1SV2ZxclYxNGNSQ3FOVEZBSTZSU2NjZmJ0L1lOV0ZPYStyVEwvaUY0R1RwTkhOWW1sOFh1UnNFYWZRVlBYOGxJMnBraUdETjFiVmtrSk1xRytqT3ZNSDhxQ2dFdmoiLCJtYWMiOiI2YjQ4MzA2NGM4NTAzNTI1ZjczNjg3NDE5Njc0NjU5ZjczNzY4ZjMzZTkzMTg3ZGNlNTRmMWY0NzA0MDk0NmE2IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6ImpBTXJ1ekVYa2Jya2hJUzltMEE5eGc9PSIsInZhbHVlIjoiSkpzbE5xdDJGa0VaTU9kRFd2UzQxcit0L2c1SzlramVxb0xVNGFLSjVEVllIbFlZcDkyRnk3RUVZRVVqeHhTQXlRRUdlcFFqMUpyMGowRjd4NDVlNFZaNmdDZStuQjJmcE00akxjT1Y4NEVqLzc5MXNtWS9zejlDa2N4ZlJsRTEiLCJtYWMiOiJmMmRhNzE0NjM2MTBlYWNmNDg1ODFiOGYxNjkyYjY4NzY0YjgxNjU5NjA0OWJkNjdjZWYwYjU5N2RmZjRhNjI0IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:10 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
         description: null
     responseFields: []
   -
@@ -571,7 +571,7 @@ endpoints:
         name: blogPost
         description: ''
         required: true
-        example: voluptatem
+        example: excepturi
         type: string
         custom: []
     queryParameters: []
@@ -581,7 +581,7 @@ endpoints:
         status: 404
         content: |-
           {
-              "message": "No query results for model [App\\Models\\v1\\BlogPost] voluptatem",
+              "message": "No query results for model [App\\Models\\v1\\BlogPost] excepturi",
               "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
               "file": "/Users/kieran/Sites/kieranproctor-api/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
               "line": 355,
@@ -1048,6 +1048,6 @@ endpoints:
           content-type: application/json
           access-control-allow-origin: 'https://kieranproctor.com'
           access-control-allow-credentials: 'true'
-          set-cookie: 'XSRF-TOKEN=eyJpdiI6ImdDSGoxWmVtcFJlRDlzQW9QNEVQbUE9PSIsInZhbHVlIjoiZ1NucTcxVmt0eERTdmxYbEN0U0NsZzI1c01ObTMxWFZHRUJtMW5Ta25xNjhmbmQvdWVCYUxmU1BkbHF1TWl2OWRUdC9VaW9QbENsZ0JtclJWVnVKYVE1c3R4ZlFhMi9Mb1RxbG1wVjNySkRtWWkvVy9OM2xDOHMxRVM2NUsxVXEiLCJtYWMiOiIxMTdhMDcxNWM0NGU4ZmZkYTdkZmZmYWMyMWViY2UwNDM3Y2IxOTM0NGYzM2JiOTEwYmQwNWNiYTMxMmNkYzlmIiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6InFWYUMxNkRIUDlkazRlVmxTTmVja1E9PSIsInZhbHVlIjoidlZKSDVpa3FvNVhnUlQrcjFORkpGOEZsYW9zbi9wb2g5Y1BxbHJsbGI2eEc4NDh6UDdZdUkzZUtmTm9sbWpONVVMVmg0RFdTN1BSSWtvZ2cxbnhIOXdzclR1WmhFUlpGZWMwdGlaWWlzNktaQ1pOS1ZoSGl4Z254eGx4dFNqRVgiLCJtYWMiOiJmYTkyODk1MWU5NGE1MTE4NmExZTkyNzVhNTc3NmExOTc5MzJhYWM2YTUyMTFkOThlZTU3YmYzMDdiYjA4OWQ1IiwidGFnIjoiIn0%3D; expires=Fri, 25-Mar-2022 13:28:45 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6ImplU2tVdk1QM05QYkpQNVN5RkVhREE9PSIsInZhbHVlIjoiZkZNNWJ2NG5zWXJLb1lRbnlpa1hIWTUvUFhmVVhMWEIvQXpWZlVpUmNHM0JKQmt1NEordTU4ZkJZYlZTMzFWWHZscHA3QVVPWkMybkQvcnFac1EySy9zcEdyY0VMdnIrRE8wMy9Kd2ZXVXh4QVRlMUF6TWFrczZreHJRUVgwTTgiLCJtYWMiOiJmYTMyM2RhNThhMmYxZjU2ZTQ2NDkyZTA1MmExYzlmNDI1YjJhZjIyNDI5MWE2YzllM2I2YmVjN2FhNGNjODdkIiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:11 GMT; Max-Age=7200; path=/; samesite=lax; kieran_proctor_api_session=eyJpdiI6IkxBcFJzWHg4MlBPTDZHSFg0L2tQT3c9PSIsInZhbHVlIjoiMDJveDVaRVc4RzdNSjMzS3pMMUROWGozaXI4OTRwNjJYNzZDWjdDU21SMkVKdnlzQjFicTk5Q1FxOUttY2d2Nktqdkhaam5rcDZpSUwwc2Njb3p1RTc3b0RESjhyeEpmbTNwN1lwVE1xN1o1L0xDZTZRQTk3Y3VubUp3UWluQkYiLCJtYWMiOiJjZWUyZGUxZThkMTVmZGRlZTU2NzM1NjZiMGI4YmYzODU4YzAzOTJhMWE4NzFiNGU2MjQwMzNiNjg4NjcwMWY0IiwidGFnIjoiIn0%3D; expires=Mon, 28-Mar-2022 09:33:11 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
         description: null
     responseFields: []

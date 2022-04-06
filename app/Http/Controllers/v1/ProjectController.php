@@ -85,4 +85,9 @@ class ProjectController extends Controller
     {
         //
     }
+
+    public function statistics(Project $project)
+    {
+        // Get indepth statistics for the project.
+    }
 }

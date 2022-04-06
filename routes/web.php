@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\v1\ProjectController;
 use App\Http\Controllers\v1\BlogPostController;
+use App\Http\Controllers\v1\AboutController;
+use App\Http\Controllers\v1\StatisticController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,16 +17,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return ['Laravel' => app()->version()];
-});
+Route::redirect('/', '/docs');
 
 Route::prefix('v1')->group(function () {
-    Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
-    Route::get('/projects/{project}', [ProjectController::class, 'show'])->name('projects.show');
+    Route::get('/projects', [ProjectController::class, 'index']);
+    Route::get('/projects/{project}', [ProjectController::class, 'show']);
+    Route::get('/projects/{project}/statistics', [ProjectController::class, 'statistics']);
 
-    Route::get('/blog-posts', [BlogPostController::class, 'index'])->name('blog-posts.index');
-    Route::get('/blog-posts/{blogPost}', [BlogPostController::class, 'show'])->name('blog-posts.show');
+    Route::get('/blog-posts', [BlogPostController::class, 'index']);
+    Route::get('/blog-posts/{blogPost}', [BlogPostController::class, 'show']);
+
+    Route::get('/statistics', [StatisticController::class, 'index']);
+
+    Route::get('/about', [AboutController::class, 'index']);
 });
 
 require __DIR__ . '/auth.php';

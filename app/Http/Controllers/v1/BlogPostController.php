@@ -7,6 +7,7 @@ use App\Http\Resources\v1\BlogPostCollection;
 use App\Http\Resources\v1\BlogPostResource;
 use App\Models\v1\BlogPost;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class BlogPostController extends Controller
 {
