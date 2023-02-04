@@ -33,6 +33,7 @@ class Server extends BaseServer
     {
         return [
             Posts\PostSchema::class,
+            Projects\ProjectSchema::class,
         ];
     }
 }
