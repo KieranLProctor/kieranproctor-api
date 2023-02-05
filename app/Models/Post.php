@@ -19,4 +19,9 @@ class Post extends Model
     protected $casts = [
         'published_at' => 'datetime'
     ];
+
+    public function image()
+    {
+        return $this->morphOne(Image::class, 'imageable');
+    }
 }

@@ -15,4 +15,9 @@ class Project extends Model
         'body',
         'url',
     ];
+
+    public function image()
+    {
+        return $this->morphOne(Image::class, 'imageable');
+    }
 }
