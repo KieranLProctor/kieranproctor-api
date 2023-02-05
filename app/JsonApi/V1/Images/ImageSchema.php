@@ -1,18 +1,18 @@
 <?php
 
-namespace App\JsonApi\V1\Projects;
+namespace App\JsonApi\V1\Images;
 
-use App\Models\Project;
+use App\Models\Image;
 use LaravelJsonApi\Eloquent\Contracts\Paginator;
 use LaravelJsonApi\Eloquent\Fields\DateTime;
 use LaravelJsonApi\Eloquent\Fields\ID;
-use LaravelJsonApi\Eloquent\Fields\Relations\HasOne;
+use LaravelJsonApi\Eloquent\Fields\Number;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Filters\WhereIdIn;
 use LaravelJsonApi\Eloquent\Pagination\PagePagination;
 use LaravelJsonApi\Eloquent\Schema;
 
-class ProjectSchema extends Schema
+class ImageSchema extends Schema
 {
 
     /**
@@ -20,7 +20,7 @@ class ProjectSchema extends Schema
      *
      * @var string
      */
-    public static string $model = Project::class;
+    public static string $model = Image::class;
 
     /**
      * Get the resource fields.
@@ -31,11 +31,9 @@ class ProjectSchema extends Schema
     {
         return [
             ID::make(),
-            HasOne::make('image')->readonly(),
-            Str::make('title'),
-            Str::make('slug'),
-            Str::make('body'),
-            Str::make('slug'),
+            Str::make('url')->readonly(),
+            Number::make('imageable_id')->readonly(),
+            Str::make('imageable_type')->readonly(),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
         ];

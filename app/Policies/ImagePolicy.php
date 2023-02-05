@@ -2,18 +2,18 @@
 
 namespace App\Policies;
 
-use App\Models\Project;
+use App\Models\Image;
 use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-class ProjectPolicy
+class ImagePolicy
 {
     use HandlesAuthorization;
 
     /**
      * Determine whether the user can view any models.
      *
-     * @param \App\Models\User|null $user
+     * @param  \App\Models\User|null $user
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function viewAny(?User $user)
@@ -24,32 +24,19 @@ class ProjectPolicy
     /**
      * Determine whether the user can view the model.
      *
-     * @param \App\Models\User|null $user
-     * @param \App\Models\Project $project
+     * @param  \App\Models\User|null  $user
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function view(?User $user, Project $project)
+    public function view(?User $user, Image $image)
     {
         return true;
-    }
-
-
-    /**
-     * Determine whether the user can view the post's tags.
-     *
-     * @param \App\Models\User|null $user
-     * @param \App\Models\Project $project
-     * @return \Illuminate\Auth\Access\Response|bool
-     */
-    public function viewImage(?User $user, Project $project)
-    {
-        return $this->view($user, $project);
     }
 
     /**
      * Determine whether the user can create models.
      *
-     * @param \App\Models\User $user
+     * @param  \App\Models\User  $user
      * @return \Illuminate\Auth\Access\Response|bool
      */
     public function create(User $user)
@@ -60,11 +47,11 @@ class ProjectPolicy
     /**
      * Determine whether the user can update the model.
      *
-     * @param \App\Models\User $user
-     * @param \App\Models\Project $project
+     * @param  \App\Models\User  $user
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function update(User $user, Project $project)
+    public function update(User $user, Image $image)
     {
         return false;
     }
@@ -72,11 +59,11 @@ class ProjectPolicy
     /**
      * Determine whether the user can delete the model.
      *
-     * @param \App\Models\User $user
-     * @param \App\Models\Project $project
+     * @param  \App\Models\User  $user
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function delete(User $user, Project $project)
+    public function delete(User $user, Image $image)
     {
         return false;
     }
@@ -84,11 +71,11 @@ class ProjectPolicy
     /**
      * Determine whether the user can restore the model.
      *
-     * @param \App\Models\User $user
-     * @param \App\Models\Project $project
+     * @param  \App\Models\User  $user
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function restore(User $user, Project $project)
+    public function restore(User $user, Image $image)
     {
         return false;
     }
@@ -96,11 +83,11 @@ class ProjectPolicy
     /**
      * Determine whether the user can permanently delete the model.
      *
-     * @param \App\Models\User $user
-     * @param \App\Models\Project $project
+     * @param  \App\Models\User  $user
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Auth\Access\Response|bool
      */
-    public function forceDelete(User $user, Project $project)
+    public function forceDelete(User $user, Image $image)
     {
         return false;
     }
