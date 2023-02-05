@@ -41,7 +41,7 @@ class ProjectPolicy
      */
     public function create(User $user)
     {
-        //
+        return false;
     }
 
     /**
@@ -53,7 +53,7 @@ class ProjectPolicy
      */
     public function update(User $user, Project $project)
     {
-        //
+        return false;
     }
 
     /**
@@ -65,7 +65,7 @@ class ProjectPolicy
      */
     public function delete(User $user, Project $project)
     {
-        //
+        return false;
     }
 
     /**
@@ -77,7 +77,7 @@ class ProjectPolicy
      */
     public function restore(User $user, Project $project)
     {
-        //
+        return false;
     }
 
     /**
@@ -89,6 +89,6 @@ class ProjectPolicy
      */
     public function forceDelete(User $user, Project $project)
     {
-        //
+        return false;
     }
 }
