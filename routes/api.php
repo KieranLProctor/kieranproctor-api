@@ -21,8 +21,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 JsonApiRoute::server('v1')->prefix('v1')->resources(function ($server) {
-    $server->resource('posts', JsonApiController::class)->readOnly();
+    $server->resource('posts', JsonApiController::class)->readOnly()->relationships(function ($relations) {
+        $relations->hasMany('tags')->readOnly();
+    });
+
     $server->resource('projects', JsonApiController::class)->readOnly()->relationships(function ($relations) {
         $relations->hasOne('image')->readOnly();
+        $relations->hasMany('tags')->readOnly();
     });
 });

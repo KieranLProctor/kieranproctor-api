@@ -6,6 +6,7 @@ use App\Models\Project;
 use LaravelJsonApi\Eloquent\Contracts\Paginator;
 use LaravelJsonApi\Eloquent\Fields\DateTime;
 use LaravelJsonApi\Eloquent\Fields\ID;
+use LaravelJsonApi\Eloquent\Fields\Relations\BelongsToMany;
 use LaravelJsonApi\Eloquent\Fields\Relations\HasOne;
 use LaravelJsonApi\Eloquent\Fields\Str;
 use LaravelJsonApi\Eloquent\Filters\WhereIdIn;
@@ -31,13 +32,14 @@ class ProjectSchema extends Schema
     {
         return [
             ID::make(),
-            HasOne::make('image')->readonly(),
             Str::make('title'),
             Str::make('slug'),
             Str::make('body'),
             Str::make('slug'),
             DateTime::make('createdAt')->sortable()->readOnly(),
             DateTime::make('updatedAt')->sortable()->readOnly(),
+            HasOne::make('image')->readonly(),
+            BelongsToMany::make('tags')->sortable()->readOnly(),
         ];
     }
 
